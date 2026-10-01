@@ -1,0 +1,60 @@
+name: Bug report
+description: Something on jsonhero.dev isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **Issues are public.** Please don't paste private JSON, tokens, or share links you want to keep private. A small made-up sample that shows the problem is perfect.
+
+        Found a security problem? Please [report it privately](https://github.com/jsonherodev/jsonhero.dev/security/policy) instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Formatting or validation
+        - Minify
+        - Tree view or folding
+        - Search
+        - Loading JSON (paste, file, URL or clipboard)
+        - Unescape
+        - Download
+        - Share links
+        - Sign-in or account
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Paste the sample below
+        2. Click Format
+        3. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample JSON
+      description: The smallest made-up sample that reproduces the problem. Remove anything sensitive.
+      render: json
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: e.g. latest Chrome on macOS, Firefox on Windows 11
+    validations:
+      required: true

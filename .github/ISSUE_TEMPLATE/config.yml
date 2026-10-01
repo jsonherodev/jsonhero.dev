@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/jsonherodev/jsonhero.dev/security/policy
+    about: Please report security issues privately, not in a public issue.
+  - name: Remove a share link early
+    url: https://jsonhero.dev/faq.html
+    about: Email hello@jsonhero.dev with the link. Please don't post it here, because issues are public.
+  - name: Account or billing help
+    url: https://jsonhero.dev/billing.html
+    about: Manage your plan on the Billing page, or email hello@jsonhero.dev.
+  - name: Other questions
+    url: https://jsonhero.dev/faq.html
+    about: Check the FAQ, or email hello@jsonhero.dev.
