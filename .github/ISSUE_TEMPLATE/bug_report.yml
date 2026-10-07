@@ -23,6 +23,7 @@ body:
         - Loading JSON (paste, file, URL or clipboard)
         - Unescape
         - Download
+        - Comparing JSON (diff page)
         - Share links
         - Sign-in or account
         - Something else

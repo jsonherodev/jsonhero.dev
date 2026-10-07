@@ -4,6 +4,12 @@ Notable changes to [jsonhero.dev](https://jsonhero.dev), newest first.
 
 <!-- Add new entries at the top: "## YYYY-MM-DD", then Added / Changed / Fixed bullets. -->
 
+## 2026-10-07
+
+### Added
+
+- **Compare JSON** on the new [diff page](https://jsonhero.dev/diff.html), or with **Compare** in the editor. It shows added, removed, changed and retyped values side by side or as a unified diff, with rules for matching array items by key, ignoring paths and allowing a number tolerance, plus a compatibility report that flags likely breaking changes. A comparison can be shared as one link on any plan. Pro lifts the rule limits and adds saved rule presets and exports as a JSON Patch, a unified diff or Markdown.
+
 ## 2026-10-01
 
 ### Added
